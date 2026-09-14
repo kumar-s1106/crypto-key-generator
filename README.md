@@ -69,12 +69,6 @@ key_TIMESTAMP.txt - saved symmetric keys
 - Never use Python random module for security purposes
   as it is deterministic and predictable.
 
-## Difference Between This And The IDS Project
-The IDS project detects threats on the network layer.
-This project operates on the cryptography layer.
-Together they represent two different areas of
-cybersecurity - network security and data security.
-
 ## Future Improvements
 - Password protect private keys with a passphrase
 - AES file encryption using the generated symmetric key
